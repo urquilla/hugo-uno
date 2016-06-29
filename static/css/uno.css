@@ -1,14 +1,14 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Droid Sans';
   font-style: normal;
   font-weight: 400;
-  src: local("Ubuntu"), local("Ubuntu"), url(../fonts/Ubuntu-Regular.ttf) format("ttf"); }
+  src: local("Droid Sans"), local("DroidSans"), url(fonts/DroidSans.woff) format("woff"); }
 @font-face {
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: 400;
-  src: local("Source Serif Pro"), local("Source Serif Pro"), url(../fonts/SourceSerifPro-Regular.otf) format("otf"); }
+  src: local("Gentium Book Basic"), local("GentiumBookBasic"), url(fonts/GentiumBookBasic.woff) format("woff"); }
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -1853,7 +1853,7 @@ html {
   max-height: 100%; }
 
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Droid sans", sans-serif;
   font-size: 1em;
   color: #666666; }
 
@@ -1881,7 +1881,7 @@ h5,
 h5 {
   margin-top: .8em;
   margin-bottom: .4em;
-  font-family: "Source Serif Pro", serif;
+  font-family: "Gentium Book Basic", serif;
   font-weight: lighter;
   color: #333333;
   -webkit-font-smoothing: antialiased; }
@@ -1923,7 +1923,7 @@ blockquote {
   background: #F8F8F8;
   border: 1px solid #EEEEEE;
   border-radius: 3px;
-  font-family: "Source Serif Pro", serif;
+  font-family: "Gentium Book Basic", serif;
   font-weight: lighter;
   font-style: italic;
   font-size: 1.3em;
@@ -1992,7 +1992,7 @@ pre {
   color: #999999; }
 
 .intro {
-  font-family: "Source Serif Pro", serif;
+  font-family: "Gentium Book Basic", serif;
   font-size: 1.2em;
   font-weight: lighter;
   color: #999999; }
@@ -2306,11 +2306,6 @@ hr {
   width: 30%;
   margin: 2em 0;
   border-top: 1px solid #DDDDDD; }
-.post .post-date {
-  margin-bottom: 1em; }
-.post p {
-  margin-top: 1em;
-  line-height: 1.2em; }
 
 .error-code {
   font-size: 6em; }
@@ -2336,7 +2331,7 @@ hr {
   color: #FFF; }
 
 .panel-subtitle {
-  font-family: "Source Serif Pro", serif;
+  font-family: "Gentium Book Basic", serif;
   font-size: 1.2em;
   font-weight: lighter;
   letter-spacing: 3px;
@@ -2581,7 +2576,6 @@ nav {
 
 .post-list__meta--date {
   margin-right: .5em;
-  margin-bottom: 1em;
   color: #c7c7c7; }
 
 .post-list__meta--tags {
@@ -2594,10 +2588,10 @@ nav {
 
 .summary {
   margin-top: .2em;
-  margin-left: .2em;
+  margin-left: .5em;
   margin-bottom: .2em;
   font-size: 1em;
-  font-family: "Ubuntu", sans-serif; }
+  font-family: "Droid sans", sans-serif; }
 
 @media all and (min-width: 1300px) {
   .content-wrapper {
